@@ -10,6 +10,8 @@ def main():
     game_manager = Game_Manager(25,50)
     game_manager.world_gen()
     while True:
+        game_manager.update_objects()
+
         game_manager.render_world()
         game_manager.clear_move_cursor()
         time.sleep(game_speed)
