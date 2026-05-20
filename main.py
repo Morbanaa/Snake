@@ -6,7 +6,7 @@ import time
 from game_manager import Game_Manager
 
 def main():
-    game_speed = 0.5
+    game_speed = 0.1
     game_manager = Game_Manager(25,50)
     game_manager.world_gen()
     while True:
